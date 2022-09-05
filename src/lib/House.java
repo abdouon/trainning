@@ -1,3 +1,5 @@
+package lib;
+
 public class House {
     boolean livingRoom_door=false;
     boolean bedroom_door=false;
