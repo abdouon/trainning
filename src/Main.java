@@ -22,10 +22,13 @@ public class Main extends GeneralMethods implements HouseCommands {
     @Override
     public void turn_on(String target) {
 
+
     }
 
     @Override
     public void turn_off(String target) {
 
+
     }
+
 }
