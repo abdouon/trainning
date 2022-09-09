@@ -9,11 +9,9 @@ public class House {
 
     }
     public static class livingRoom extends room {
-//        livingRoom obj=new livingRoom();
 
     }
     public static class bedRoom extends room{
-//        bedRoom obj=new bedRoom();
     }
 
     public static String[] status (livingRoom lobj,bedRoom bobj){

@@ -29,13 +29,16 @@ public class Main extends GeneralMethods implements HouseCommands {
                 for ( String s : status){
                     System.out.println(s);
                 }
+                break;
 
             case 2:
                 System.out.println("----------COMMANDS----------");
                 for ( String s : status){
                     System.out.println(s);
                 }
-
+                break;
+            default:
+                System.out.printf("your chose  %s%n is not in the list of chooses .try another one", command);
         }
         
 }

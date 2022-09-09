@@ -9,7 +9,6 @@ public class GeneralMethods {
     public static void cleanConsole(){
         System.out.print("\033[H\033[2J");
         System.out.flush();
-
     };
     public static String read_txt(String filepath) {
         String data = null;
@@ -34,9 +33,6 @@ public class GeneralMethods {
         int command =input.nextInt();
         input.close();
         cleanConsole();
-
         return command;
-
     }
-
 }
