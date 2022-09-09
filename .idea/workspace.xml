@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8f60ad0-bee5-4dca-9157-1ed26c24fa1f" name="Changes" comment="c">
-      <change afterPath="$PROJECT_DIR$/TASKS.MD" afterDir="false" />
+    <list default="true" id="a8f60ad0-bee5-4dca-9157-1ed26c24fa1f" name="Changes" comment="all">
+      <change afterPath="$PROJECT_DIR$/interview.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strings/description.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TASKS.MD" beforeDir="false" afterPath="$PROJECT_DIR$/TASKS.MD" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/GeneralMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/GeneralMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/House.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/HouseCommands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/HouseCommands.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +48,10 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
@@ -93,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662350794973</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="all">
+      <created>1662391637826</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662391637827</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -109,6 +126,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="c" />
-    <option name="LAST_COMMIT_MESSAGE" value="c" />
+    <MESSAGE value="all" />
+    <option name="LAST_COMMIT_MESSAGE" value="all" />
   </component>
 </project>

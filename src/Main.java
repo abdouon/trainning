@@ -12,22 +12,42 @@ public class Main extends GeneralMethods implements HouseCommands {
 
 
     public  static void main(String[] args){
-//    if the user choose an options you need to delete first menu from the terminal and show up the next one
-//    after ending a single command show up the right message and show the ending options
+        Main Mobj= new Main();
+        House.livingRoom HLRobj=new House.livingRoom();
+        House.bedRoom HBRobj=new House.bedRoom();
+        String[] status= House.status(HLRobj,HBRobj);
+        String description=read_txt("./strings/description.txt");
+        System.out.println(description);
+        for (String s : Mobj.first_menu_options){
+            System.out.println(s);
+        };
+        System.out.print("enter your chose (command number):");
+        int command =inputF();
+        switch (command){
+            case 1:
+                System.out.println("----------STATUS----------");
+                for ( String s : status){
+                    System.out.println(s);
+                }
 
+            case 2:
+                System.out.println("----------COMMANDS----------");
+                for ( String s : status){
+                    System.out.println(s);
+                }
 
+        }
+        
 }
 
 
     @Override
     public void turn_on(String target) {
 
-
     }
 
     @Override
     public void turn_off(String target) {
-
 
     }
 

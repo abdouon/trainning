@@ -1,0 +1,3 @@
+Welcome. \n this is simple program you can manage with it a house\use the commands bellow for managing this last.
+
+

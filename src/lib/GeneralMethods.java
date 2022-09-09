@@ -1,7 +1,8 @@
 package lib;
-import java.io.File;  // Import the File class
-import java.io.FileNotFoundException;  // Import this class to handle errors
-import java.util.Scanner; // Import the Scanner class to read text files
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.security.PublicKey;
+import java.util.Scanner;
 
 public class GeneralMethods {
 
@@ -26,4 +27,16 @@ public class GeneralMethods {
         }
         return data;
     }
+
+    public static int inputF(){
+        Scanner input=new Scanner(System.in);
+        System.out.print("enter your chose (command number):");
+        int command =input.nextInt();
+        input.close();
+        cleanConsole();
+
+        return command;
+
+    }
+
 }
