@@ -23,7 +23,6 @@ public class Main extends GeneralMethods implements HouseCommands {
             System.out.println(s);
         };
         int command =inputF();
-        System.out.print("enter your chose (command number):");
         while (command != 0){
             switch (command) {
                 case 1 -> {
@@ -31,10 +30,10 @@ public class Main extends GeneralMethods implements HouseCommands {
                     for (String s : status) {
                         System.out.println(s);
                     }
-                    System.out.println("\n\n\n-----------------------");
+                    System.out.println("\n\n\n----------MENU----------");
                     for (String s : Mobj.first_menu_options){
                         System.out.println(s);
-                    };
+                    }
 
                 }
                 case 2 -> {
