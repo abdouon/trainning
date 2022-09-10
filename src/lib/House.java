@@ -9,7 +9,6 @@ public class House {
 
     }
     public static class livingRoom extends room {
-
     }
     public static class bedRoom extends room{
     }
@@ -73,8 +72,6 @@ public class House {
 
         return new String[]{livingRoomDoor,livingRoomLight,livingRoomWindow,bedRoomDoor,bedRoomWindow,bedRoomLight};
      }
-
-
 
 
 

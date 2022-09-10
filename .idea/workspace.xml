@@ -3,9 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="a8f60ad0-bee5-4dca-9157-1ed26c24fa1f" name="Changes" comment="all">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview.md" beforeDir="false" afterPath="$PROJECT_DIR$/interview.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/GeneralMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/GeneralMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/House.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strings/description.txt" beforeDir="false" afterPath="$PROJECT_DIR$/strings/description.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +26,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/need_to_be_discovered.md" root0="FORCE_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Main.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/lib/GeneralMethods.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/lib/House.java" root0="FORCE_HIGHLIGHTING" />
@@ -111,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662745592336</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="all">
+      <created>1662747786401</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1662747786401</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

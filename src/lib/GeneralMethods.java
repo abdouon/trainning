@@ -1,14 +1,13 @@
 package lib;
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.security.PublicKey;
 import java.util.Scanner;
+import java.io.*;
 
 public class GeneralMethods {
 
     public static void cleanConsole(){
-        System.out.print("\033[H\033[2J");
-        System.out.flush();
+        System.out.print("\b\b\b\b\b");
     };
     public static String read_txt(String filepath) {
         String data = null;
@@ -27,12 +26,17 @@ public class GeneralMethods {
         return data;
     }
 
-    public static int inputF(){
-        Scanner input=new Scanner(System.in);
+
+    public static int inputF() throws IOException {
+//        request the input while user has not entered 00 ;
+        int command ;
+        BufferedReader bfn = new BufferedReader(new InputStreamReader(System.in));
         System.out.print("enter your chose (command number):");
-        int command =input.nextInt();
-        input.close();
-        cleanConsole();
+        command = Integer.parseInt(bfn.readLine());
         return command;
+
+
+
+
     }
 }
