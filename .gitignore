@@ -28,4 +28,8 @@ bin/
 ### Mac OS ###
 .DS_Store
 
-*.md
+discovered.md
+need_to_be_discovered.md
+interview.md
+TASKS.MD
+test.txt
