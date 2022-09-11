@@ -33,10 +33,7 @@ public class GeneralMethods {
         BufferedReader bfn = new BufferedReader(new InputStreamReader(System.in));
         System.out.print("enter your chose (command number):");
         command = Integer.parseInt(bfn.readLine());
+        System.out.println("-----------------------------");
         return command;
-
-
-
-
     }
 }

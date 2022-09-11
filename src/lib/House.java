@@ -1,6 +1,8 @@
 package lib;
 
-public class House {
+import java.util.Objects;
+
+public class House implements HouseCommands{
     public static class room{
 
         boolean door=false;
@@ -13,7 +15,52 @@ public class House {
     public static class bedRoom extends room{
     }
 
-    public static String[] status (livingRoom lobj,bedRoom bobj){
+
+    public static void room_command(int room, int target, Boolean command, livingRoom lobj, bedRoom bobj) {
+        if(room == 1){
+
+//            mean livingroom
+            if (target ==1){
+//                mean a door
+                lobj.door=command;
+
+
+
+            }
+            else if (target ==2){
+//                mean a window
+                lobj.window=command;
+
+            }
+            else if (target ==3){
+//                mean a light
+                lobj.light=command;
+
+            }
+
+
+
+        }
+        else if(room == 2){
+//            mean bedroom
+            if (target == 1){
+                bobj.door=command;
+
+
+
+            }
+            else if (target ==2){
+                bobj.window=command;
+
+            }
+            else if (target ==3){
+                bobj.light=command;
+
+            }
+        }
+    }
+
+    public static String[] status(livingRoom lobj, bedRoom bobj){
 
         String livingRoomDoor;
         String livingRoomWindow;

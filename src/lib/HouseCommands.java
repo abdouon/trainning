@@ -1,9 +1,13 @@
 package lib;
 
 public interface HouseCommands {
-    void turn_on(String target);
-    void turn_off(String target);
+    public static void room_command(int room, int target, Boolean command, House.livingRoom lobj, House.bedRoom bobj) {
 
+    }
+
+    public static String[] status(House.livingRoom lobj, House.bedRoom bobj) {
+        return new String[0];
+    }
 
 
 }
